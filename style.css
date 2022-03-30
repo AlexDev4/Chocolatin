@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Berkshire;
+    src: url("/font/Berkshire_Swash");
+}
+/*style header*/
+#headerimg{
+    display: flex;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+.menu li{
+    list-style-type: none;
+
+}
+.menu a{
+    font-family: Berkshire;
+    color: #654B3A;
+    text-decoration: none;
+    display: block;
+    margin: 1rem;
+}
+/*style index*/
+h1
+{
+    display: flex;
+    justify-content: left;
+    font-size: 35px;
+    font-family: Berkshire;
+    color: #654B3A;
+}
+.img{
+    width: 50%;
+}
+.corps{
+    display:flex;
+}
+.corps p{
+    margin-inside: 50%;
+}
