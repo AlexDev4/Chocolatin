@@ -41,3 +41,58 @@ h1
 .corps p{
     margin-inside: 50%;
 }
+.footer{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+}
+#bio{
+    display: flex;
+    width: 10%;
+}
+.slogan{
+    width: 27em;
+    display: flex;
+    flex-direction: column;
+    white-space: normal;
+    margin-right: 5em;
+}
+.menufooter{
+    width: 27em;
+    display: flex;
+    flex-direction: column;
+}
+.infolettre{
+    width: 27em;
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    font-size: 20px;
+    color: #654B3A;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+    border-bottom-width: thin;
+}
+#btnInfolettre{
+    width: auto;
+}
+#imgInfolettre{
+    width: 60%;
+}
+.CGU{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#CG{
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+}
+.texteCorps{
+    display: flex;
+    flex-direction: column;
+    column-width: auto;
+    margin-right: 2em;
+}
